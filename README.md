@@ -16,3 +16,4 @@ Parekh, T., Ahn, E., Tsvetkov, Y. and Black, A., 2020. "Understanding Linguistic
         url = "https://www.aclweb.org/anthology/2020.conll-1.46",
     }
 
+For any queries, please contact/email: tparekh[at]andrew.cmu.edu
