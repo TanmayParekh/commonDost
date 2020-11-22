@@ -1,0 +1,1765 @@
+<!DOCTYPE html>
+<html>
+<head><style>table{ table-layout: fixed; width: 600px; border-collapse: collapse; } tr:nth-child(n) { border: solid thin;}</style></head><body>
+<style>
+* {
+font-size: 1em;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+#filter td {
+padding: 0 20px 5px 0;
+}
+.scenario {
+width: 100%;
+display: inline-block;
+text-align: left;
+}
+.scenario table {
+border-collapse: collapse;
+text-align: left;
+}
+.survey {
+width: 100%;
+}
+.survey table {
+border-collapse: collapse;
+}
+.survey table td, .scenario table td {
+padding: 0 5px;
+}
+.survey .response {
+padding: 0 0 20px 0;
+}
+.agentLabel {
+padding: 10px;
+}
+.scenario td, .scenario th, .survey td, .survey th {
+border-bottom: 1px solid #ddd;
+padding: 0 5px 0 0;
+}
+.divTitle {
+padding: 20px 0px 10px 0px;
+font-weight: bold;
+}
+.kb0 {
+width: 48%;
+float: left;
+}
+.kb1 {
+width: 48%;
+margin-left: 4%;
+float: left;
+}
+.chatLog .chat {
+width: 100%;
+border-collapse: collapse;
+}
+.kb0 th {
+background-color: #80ced6;
+}
+.chatLog .agent0 {
+background-color: #80ced6;
+}
+.survey .response0 th {
+background-color: #80ced6;
+}
+.kb1 th {
+background-color: #ffef96;
+}
+.chatLog .agent1 {
+background-color: #ffef96;
+}
+.survey .response1 th {
+background-color: #ffef96;
+}
+</style>
+<h3>Total number of chats: 8</h3>
+<h3>Number of chats completed: 5</h3>
+<hr>
+<h3>Mturk ID: MTURK_TASK_C2a7168562a0e4cc693c9d6af63f26312</h3>
+<h3>Chat UUID: C_5db75d3878a2482caf34240cab9df5a5</h3>
+<h3>Chat Number: 1</h3>
+<div class="scenario">
+<div class="divTitle">Scenario S_wwYgKm8lIGKFNzDd with style random</div>
+<div class="kb0"><table><tr><td colspan="4" class="agentLabel">Agent 0</td></tr>
+<th>hobbies (1.0)</th>
+<th>time (3.0)</th>
+<th>fruits (1.0)</th>
+<th>gender (0.3)</th>
+</tr>
+<tr>
+<td>writing</td>
+<td>morning</td>
+<td>guava</td>
+<td>male</td>
+</tr>
+<tr>
+<td>writing</td>
+<td>morning</td>
+<td>pineapple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>swimming</td>
+<td>morning</td>
+<td>pomegranate</td>
+<td>male</td>
+</tr>
+<tr>
+<td>reading</td>
+<td>morning</td>
+<td>pineapple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>writing</td>
+<td>afternoon</td>
+<td>apple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>swimming</td>
+<td>morning</td>
+<td>apple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>swimming</td>
+<td>night</td>
+<td>peach</td>
+<td>male</td>
+</tr>
+<tr>
+<td>running</td>
+<td>afternoon</td>
+<td>pineapple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>drawing</td>
+<td>morning</td>
+<td>sugarcane</td>
+<td>male</td>
+</tr>
+<tr>
+<td>writing</td>
+<td>night</td>
+<td>sweet lime</td>
+<td>male</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="4" class="agentLabel">Agent 1</td></tr>
+<th>hobbies (1.0)</th>
+<th>time (3.0)</th>
+<th>fruits (1.0)</th>
+<th>gender (0.3)</th>
+</tr>
+<tr>
+<td>running</td>
+<td>afternoon</td>
+<td>pineapple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>photography</td>
+<td>afternoon</td>
+<td>lime</td>
+<td>male</td>
+</tr>
+<tr>
+<td>drawing</td>
+<td>afternoon</td>
+<td>watermelon</td>
+<td>male</td>
+</tr>
+<tr>
+<td>photography</td>
+<td>afternoon</td>
+<td>pineapple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>reading</td>
+<td>night</td>
+<td>pomegranate</td>
+<td>male</td>
+</tr>
+<tr>
+<td>running</td>
+<td>night</td>
+<td>pineapple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>cooking</td>
+<td>night</td>
+<td>pineapple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>dancing</td>
+<td>afternoon</td>
+<td>pomegranate</td>
+<td>male</td>
+</tr>
+<tr>
+<td>acting</td>
+<td>afternoon</td>
+<td>water chestnut</td>
+<td>male</td>
+</tr>
+<tr>
+<td>sports</td>
+<td>night</td>
+<td>pineapple</td>
+<td>male</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent0">                <td class="time">2020-07-02 14:10:16</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">namaste</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:10:32</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">do tumhare paas any dost hai jise pomegranate khana pasand hai ya friend who drawing pasand hai? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:10:33</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">namaste</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:10:43</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have kuch purush dost hai jo during morning kaam karte hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:11:14</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">1 dost hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:11:21</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have kuch dost hai jinhe like likhana</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:11:36</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">vo purush dopeher ko kaam karta hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:11:38</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">SELECT (writing || morning || guava || male)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:12:39</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">nahi ; no such friend here</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:12:51</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">anar khanevala dopehere khana khanevala dost hai ek mera</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:13:05</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">kya tumhare paas koi dost hai jinhe tairaki pasand hai ya friend who padhana pasand hai? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:13:09</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">ye dost nachta bhi hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:13:17</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">do you have any dost hai jise likes eating aadoo? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:13:31</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">padhnevale friend ko pomogrenate pasand ahi</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:13:33</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">SELECT (swimming || morning || pomegranate || male)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:13:41</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">no friend with adoo</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:13:48</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">SELECT (dancing || afternoon || pomegranate || male)</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:13:54</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have 1 dost hai jise likes daudana</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:14:05</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">dance karnevala pomogrenete khane vala friend hai tumhara?</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:14:07</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:14:15</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">do you have koi friends who ananas khana pasand hai? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:14:17</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">mere sare dost purush hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:14:23</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have 1 dost hai jise likes eating guava</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:14:31</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">han 3 friends like ananas</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:14:39</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">do tumhare paas koi friends who seb khana pasand hai? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:15:02</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">nahi</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:15:04</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">SELECT (writing || morning || pineapple || male)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:15:11</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">mere dost ananas and anar prefer karte ahi</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:15:22</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">SELECT (reading || morning || pineapple || male)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:15:37</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">tumhare idhar koi khelnevala hai?</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:15:40</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 14:15:43</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">SELECT (running || afternoon || pineapple || male)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:15:46</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">SELECT (sports || night || pineapple || male)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 14:15:57</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">SELECT (running || afternoon || pineapple || male)</td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>m</td></tr>
+<tr><td>n01_i_understand</td><td>4</td></tr>
+<tr><td>n02_cooperative</td><td>3</td></tr>
+<tr><td>n03_human</td><td>3</td></tr>
+<tr><td>n04_understand_me</td><td>3</td></tr>
+<tr><td>n05_chat</td><td>2</td></tr>
+<tr><td>n06_texts</td><td>4</td></tr>
+<tr><td>n07_tech</td><td>4</td></tr>
+<tr><td>n08_learn_spa</td><td>3</td></tr>
+<tr><td>n09_learn_eng</td><td>2</td></tr>
+<tr><td>n10_age</td><td>1</td></tr>
+<tr><td>n11_ability_spa</td><td>3</td></tr>
+<tr><td>n12_ability_eng</td><td>3</td></tr>
+<tr><td>n13_country</td><td>4</td></tr>
+<tr><td>n14_online_spa</td><td>5</td></tr>
+<tr><td>n15_online_eng</td><td>3</td></tr>
+<tr><td>n16_online_mix</td><td>2</td></tr>
+<tr><td>n17_comments</td><td>It was a bit confusing at first ; but got the hang of it</td></tr>
+<tr><td>n18_non_native</td><td>3</td></tr>
+<tr><td>n19_partner_gender</td><td>o</td></tr>
+<tr><td>n20_languages</td><td>1,2,3</td></tr>
+<tr><td>n21_education</td><td>3</td></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<h3>Mturk ID: MTURK_TASK_Cb937e1364e334b92a08a3ce28259815a</h3>
+<h3>Chat UUID: C_dbf47cb93f7c41498ce88a240812c147</h3>
+<h3>Chat Number: 1</h3>
+<div class="scenario">
+<div class="divTitle">Scenario S_0aMCPPJA1XaiiV1q with style random</div>
+<div class="kb0"><table><tr><td colspan="4" class="agentLabel">Agent 0</td></tr>
+<th>hobbies (0.3)</th>
+<th>time (1.0)</th>
+<th>fruits (1.0)</th>
+<th>gender (0.3)</th>
+</tr>
+<tr>
+<td>drawing</td>
+<td>afternoon</td>
+<td>grapes</td>
+<td>male</td>
+</tr>
+<tr>
+<td>traveling</td>
+<td>afternoon</td>
+<td>plum</td>
+<td>male</td>
+</tr>
+<tr>
+<td>sleeping</td>
+<td>night</td>
+<td>gooseberry</td>
+<td>male</td>
+</tr>
+<tr>
+<td>sleeping</td>
+<td>night</td>
+<td>guava</td>
+<td>male</td>
+</tr>
+<tr>
+<td>sewing</td>
+<td>afternoon</td>
+<td>banana</td>
+<td>male</td>
+</tr>
+<tr>
+<td>sleeping</td>
+<td>night</td>
+<td>plum</td>
+<td>male</td>
+</tr>
+<tr>
+<td>running</td>
+<td>night</td>
+<td>pear</td>
+<td>male</td>
+</tr>
+<tr>
+<td>sewing</td>
+<td>afternoon</td>
+<td>pineapple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>sleeping</td>
+<td>afternoon</td>
+<td>lychee</td>
+<td>male</td>
+</tr>
+<tr>
+<td>running</td>
+<td>night</td>
+<td>gooseberry</td>
+<td>male</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="4" class="agentLabel">Agent 1</td></tr>
+<th>hobbies (0.3)</th>
+<th>time (1.0)</th>
+<th>fruits (1.0)</th>
+<th>gender (0.3)</th>
+</tr>
+<tr>
+<td>reading</td>
+<td>morning</td>
+<td>pomegranate</td>
+<td>male</td>
+</tr>
+<tr>
+<td>traveling</td>
+<td>afternoon</td>
+<td>plum</td>
+<td>male</td>
+</tr>
+<tr>
+<td>reading</td>
+<td>afternoon</td>
+<td>sugarcane</td>
+<td>male</td>
+</tr>
+<tr>
+<td>swimming</td>
+<td>night</td>
+<td>guava</td>
+<td>male</td>
+</tr>
+<tr>
+<td>reading</td>
+<td>night</td>
+<td>lychee</td>
+<td>male</td>
+</tr>
+<tr>
+<td>reading</td>
+<td>morning</td>
+<td>custard apple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>swimming</td>
+<td>morning</td>
+<td>guava</td>
+<td>male</td>
+</tr>
+<tr>
+<td>cooking</td>
+<td>night</td>
+<td>sugarcane</td>
+<td>male</td>
+</tr>
+<tr>
+<td>traveling</td>
+<td>night</td>
+<td>guava</td>
+<td>male</td>
+</tr>
+<tr>
+<td>swimming</td>
+<td>morning</td>
+<td>plum</td>
+<td>male</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent1">                <td class="time">2020-07-02 16:42:42</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">hey</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 16:42:47</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Hey</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 16:42:58</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">mere paas 1 dost hai jise likes padhana and who likes eating anar</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 16:43:27</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">mera pas aisa koi dost nahi hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 16:43:53</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i have kuch friends who work ke samay raat</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 16:46:56</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">hello</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 16:47:09</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i have kuch friends who work ke samay subah, 2 dost hai jinhe like eating ganna</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 16:47:27</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">mera koi dost subah kaam nahi karta</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 16:47:36</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">mere paas 1 dost hai jise litchee khana pasand hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 16:47:38</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">na hi kisiko gaana pasand hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 16:47:47</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i have 2 dost hai jo afternoon ke samay kaam karte hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 16:47:54</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">mere bhi ek dost ko lichi pasand hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 16:48:03</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">aapke dost ko sona pasand hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 16:48:12</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">kya you have koi friend who likes eating custard apple? </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 16:48:20</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">nahi</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 16:48:33</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i have 2 friends who plum khana pasand hai, kuch dost hai jinhe like eating amrud</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 16:48:54</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">aapke dosto ko</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 16:48:56</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yatra pasand hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 16:49:01</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">ya sona pasand hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 16:49:15</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">do you have koi friend who works dopahar and jinhe yatra karna ke samay pasand hai? </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 16:49:23</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">SELECT (traveling || afternoon || plum || male)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 16:49:25</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">SELECT (traveling || afternoon || plum || male)</td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>m</td></tr>
+<tr><td>n01_i_understand</td><td>5</td></tr>
+<tr><td>n02_cooperative</td><td>4</td></tr>
+<tr><td>n03_human</td><td>4</td></tr>
+<tr><td>n04_understand_me</td><td>4</td></tr>
+<tr><td>n05_chat</td><td>4</td></tr>
+<tr><td>n06_texts</td><td>4</td></tr>
+<tr><td>n07_tech</td><td>4</td></tr>
+<tr><td>n08_learn_spa</td><td>1</td></tr>
+<tr><td>n09_learn_eng</td><td>2</td></tr>
+<tr><td>n10_age</td><td>1</td></tr>
+<tr><td>n11_ability_spa</td><td>5</td></tr>
+<tr><td>n12_ability_eng</td><td>4</td></tr>
+<tr><td>n13_country</td><td>4</td></tr>
+<tr><td>n14_online_spa</td><td>2</td></tr>
+<tr><td>n15_online_eng</td><td>2</td></tr>
+<tr><td>n16_online_mix</td><td>6</td></tr>
+<tr><td>n17_comments</td><td></td></tr>
+<tr><td>n18_non_native</td><td>2</td></tr>
+<tr><td>n19_partner_gender</td><td>m</td></tr>
+<tr><td>n20_languages</td><td>1,2</td></tr>
+<tr><td>n21_education</td><td>3</td></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<h3>Mturk ID: MTURK_TASK_C3e9227480be8409895807067d3526d1f</h3>
+<h3>Chat UUID: C_6d3c25078ab64feba0da0465777b2cb9</h3>
+<h3>Chat Number: 1</h3>
+<div class="scenario">
+<div class="divTitle">Scenario S_gbMcXKOCJapel1sI with style random</div>
+<div class="kb0"><table><tr><td colspan="4" class="agentLabel">Agent 0</td></tr>
+<th>loc (3.0)</th>
+<th>hobbies (1.0)</th>
+<th>fruits (3.0)</th>
+<th>gender (3.0)</th>
+</tr>
+<tr>
+<td>the airport</td>
+<td>dancing</td>
+<td>peach</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the office</td>
+<td>running</td>
+<td>pomegranate</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the hair salon</td>
+<td>dancing</td>
+<td>guava</td>
+<td>male</td>
+</tr>
+<tr>
+<td>home</td>
+<td>photography</td>
+<td>peach</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the aquarium</td>
+<td>dancing</td>
+<td>tamarind</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the office</td>
+<td>writing</td>
+<td>lime</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the courthouse</td>
+<td>dancing</td>
+<td>plum</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the factory</td>
+<td>photography</td>
+<td>sugarcane</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the office</td>
+<td>photography</td>
+<td>tamarind</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the airport</td>
+<td>dancing</td>
+<td>gooseberry</td>
+<td>male</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="4" class="agentLabel">Agent 1</td></tr>
+<th>loc (3.0)</th>
+<th>hobbies (1.0)</th>
+<th>fruits (3.0)</th>
+<th>gender (3.0)</th>
+</tr>
+<tr>
+<td>school</td>
+<td>sports</td>
+<td>peach</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the post office</td>
+<td>cooking</td>
+<td>pineapple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the aquarium</td>
+<td>dancing</td>
+<td>tamarind</td>
+<td>male</td>
+</tr>
+<tr>
+<td>home</td>
+<td>cooking</td>
+<td>tamarind</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the factory</td>
+<td>sewing</td>
+<td>mango</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the airport</td>
+<td>sewing</td>
+<td>banana</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the aquarium</td>
+<td>traveling</td>
+<td>apple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the aquarium</td>
+<td>reading</td>
+<td>orange</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the post office</td>
+<td>dancing</td>
+<td>peach</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the factory</td>
+<td>cooking</td>
+<td>lychee</td>
+<td>male</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent1">                <td class="time">2020-07-02 22:50:00</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">hello</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 22:50:06</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Hello </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 22:50:15</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">kya tumhare paas koi friends who like eating peach? </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 22:50:45</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Haan mere do doston ko peach khaana pasand hai </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 22:50:53</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">do you have any friend who reading pasand hai? </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 22:51:19</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Nopes, kisi ko reading nai pasand</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 22:51:29</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">kya tumhare paas any dost hai jo daak ghar mein kaam karte hai? </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 22:51:57</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">Nahi, koi dost daakghar me nai kaam krra</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 22:52:11</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">do tumhare paas any dost hai jo the aquarium mein kaam karte hai ya friend who likes sports? </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-02 22:52:53</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">SELECT (the aquarium || dancing || tamarind || male)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-02 22:52:55</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">SELECT (the aquarium || dancing || tamarind || male)</td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>m</td></tr>
+<tr><td>n01_i_understand</td><td>5</td></tr>
+<tr><td>n02_cooperative</td><td>3</td></tr>
+<tr><td>n03_human</td><td>2</td></tr>
+<tr><td>n04_understand_me</td><td>2</td></tr>
+<tr><td>n05_chat</td><td>3</td></tr>
+<tr><td>n06_texts</td><td>2</td></tr>
+<tr><td>n07_tech</td><td>3</td></tr>
+<tr><td>n08_learn_spa</td><td>1</td></tr>
+<tr><td>n09_learn_eng</td><td>1</td></tr>
+<tr><td>n10_age</td><td>1</td></tr>
+<tr><td>n11_ability_spa</td><td>5</td></tr>
+<tr><td>n12_ability_eng</td><td>5</td></tr>
+<tr><td>n13_country</td><td>6</td></tr>
+<tr><td>n14_online_spa</td><td>6</td></tr>
+<tr><td>n15_online_eng</td><td>4</td></tr>
+<tr><td>n16_online_mix</td><td>7</td></tr>
+<tr><td>n17_comments</td><td></td></tr>
+<tr><td>n18_non_native</td><td>3</td></tr>
+<tr><td>n19_partner_gender</td><td>o</td></tr>
+<tr><td>n20_languages</td><td>1,2,3</td></tr>
+<tr><td>n21_education</td><td>4</td></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<h3>Mturk ID: MTURK_TASK_C0a8ec79e1f41400c8429758d4ac71e12</h3>
+<h3>Chat UUID: C_f5b06700d59248a1b854ad40f0e49c8d</h3>
+<h3>Chat Number: 1</h3>
+<div class="scenario">
+<div class="divTitle">Scenario S_mZTojkEJL9Mc8oyk with style random</div>
+<div class="kb0"><table><tr><td colspan="4" class="agentLabel">Agent 0</td></tr>
+<th>hobbies (3.0)</th>
+<th>time (3.0)</th>
+<th>fruits (0.3)</th>
+<th>gender (1.0)</th>
+</tr>
+<tr>
+<td>photography</td>
+<td>morning</td>
+<td>muskmelon</td>
+<td>male</td>
+</tr>
+<tr>
+<td>reading</td>
+<td>afternoon</td>
+<td>peach</td>
+<td>male</td>
+</tr>
+<tr>
+<td>singing</td>
+<td>afternoon</td>
+<td>lychee</td>
+<td>male</td>
+</tr>
+<tr>
+<td>traveling</td>
+<td>afternoon</td>
+<td>plum</td>
+<td>male</td>
+</tr>
+<tr>
+<td>sleeping</td>
+<td>afternoon</td>
+<td>muskmelon</td>
+<td>male</td>
+</tr>
+<tr>
+<td>writing</td>
+<td>afternoon</td>
+<td>peach</td>
+<td>male</td>
+</tr>
+<tr>
+<td>running</td>
+<td>night</td>
+<td>muskmelon</td>
+<td>male</td>
+</tr>
+<tr>
+<td>running</td>
+<td>afternoon</td>
+<td>plum</td>
+<td>male</td>
+</tr>
+<tr>
+<td>cooking</td>
+<td>afternoon</td>
+<td>pear</td>
+<td>male</td>
+</tr>
+<tr>
+<td>photography</td>
+<td>night</td>
+<td>muskmelon</td>
+<td>male</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="4" class="agentLabel">Agent 1</td></tr>
+<th>hobbies (3.0)</th>
+<th>time (3.0)</th>
+<th>fruits (0.3)</th>
+<th>gender (1.0)</th>
+</tr>
+<tr>
+<td>cooking</td>
+<td>night</td>
+<td>pear</td>
+<td>male</td>
+</tr>
+<tr>
+<td>writing</td>
+<td>night</td>
+<td>grapes</td>
+<td>male</td>
+</tr>
+<tr>
+<td>running</td>
+<td>afternoon</td>
+<td>gooseberry</td>
+<td>male</td>
+</tr>
+<tr>
+<td>reading</td>
+<td>morning</td>
+<td>grapes</td>
+<td>male</td>
+</tr>
+<tr>
+<td>writing</td>
+<td>morning</td>
+<td>grapes</td>
+<td>male</td>
+</tr>
+<tr>
+<td>reading</td>
+<td>afternoon</td>
+<td>peach</td>
+<td>male</td>
+</tr>
+<tr>
+<td>dancing</td>
+<td>afternoon</td>
+<td>plum</td>
+<td>male</td>
+</tr>
+<tr>
+<td>sports</td>
+<td>afternoon</td>
+<td>plum</td>
+<td>male</td>
+</tr>
+<tr>
+<td>acting</td>
+<td>afternoon</td>
+<td>banana</td>
+<td>male</td>
+</tr>
+<tr>
+<td>swimming</td>
+<td>afternoon</td>
+<td>sugarcane</td>
+<td>male</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent0">                <td class="time">2020-07-05 05:02:11</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">suprabhat</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-05 05:02:15</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">hey</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-05 05:02:24</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">do tumhare paas koi friend who likes eating litchee? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-05 05:02:49</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">nahi aisa koi nahi hai </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-05 05:02:58</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have 1 friend who nashpati khana pasand hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-05 05:03:33</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">kya tumhare koi dost ko grapes pasand hai?</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-05 05:03:41</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas no friend who likes eating grapes</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-05 05:03:52</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have 1 dost hai jise likes daudana and who likes eating muskmelon</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-05 05:04:31</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">nahi no body likes muskmelon</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-05 05:04:46</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">do you have any friends who peach or friends who like eating ber khana pasand hai? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-05 05:04:47</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">kya koi dost afternoon mein kaam karta hai?</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-05 05:04:58</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have bahut dost hai jo afternoon ke samay kaam karte hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-05 05:05:09</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have 1 dost hai jise likes traveling, 1 dost hai jise likes singing</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-05 05:05:45</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">unme se kisiko reading ya writing pasand hai?</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-05 05:05:56</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas 1 friend who likes padhana, 1 friend who likes writing</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-05 05:05:58</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">SELECT (reading || afternoon || peach || male)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-05 05:06:19</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">SELECT (reading || afternoon || peach || male)</td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>m</td></tr>
+<tr><td>n01_i_understand</td><td>4</td></tr>
+<tr><td>n02_cooperative</td><td>4</td></tr>
+<tr><td>n03_human</td><td>3</td></tr>
+<tr><td>n04_understand_me</td><td>4</td></tr>
+<tr><td>n05_chat</td><td>3</td></tr>
+<tr><td>n06_texts</td><td>3</td></tr>
+<tr><td>n07_tech</td><td>5</td></tr>
+<tr><td>n08_learn_spa</td><td>2</td></tr>
+<tr><td>n09_learn_eng</td><td>2</td></tr>
+<tr><td>n10_age</td><td>1</td></tr>
+<tr><td>n11_ability_spa</td><td>5</td></tr>
+<tr><td>n12_ability_eng</td><td>5</td></tr>
+<tr><td>n13_country</td><td>4</td></tr>
+<tr><td>n14_online_spa</td><td>0</td></tr>
+<tr><td>n15_online_eng</td><td>10</td></tr>
+<tr><td>n16_online_mix</td><td>0</td></tr>
+<tr><td>n17_comments</td><td></td></tr>
+<tr><td>n18_non_native</td><td>4</td></tr>
+<tr><td>n19_partner_gender</td><td>o</td></tr>
+<tr><td>n20_languages</td><td>1,2,6,9</td></tr>
+<tr><td>n21_education</td><td>3</td></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<h3>Mturk ID: MTURK_TASK_Cdca9d3ab3b544ada93c6bfa84d78a071</h3>
+<h3>Chat UUID: C_ab3d22b64bdf4a44b161b29b4b5fafc3</h3>
+<h3>Chat Number: 1</h3>
+<div class="scenario">
+<div class="divTitle">Scenario S_639zVjAYN1p1OK6f with style random</div>
+<div class="kb0"><table><tr><td colspan="4" class="agentLabel">Agent 0</td></tr>
+<th>loc (0.3)</th>
+<th>time (0.3)</th>
+<th>fruits (3.0)</th>
+<th>gender (1.0)</th>
+</tr>
+<tr>
+<td>home</td>
+<td>morning</td>
+<td>tamarind</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the courthouse</td>
+<td>night</td>
+<td>sweet lime</td>
+<td>male</td>
+</tr>
+<tr>
+<td>home</td>
+<td>night</td>
+<td>pomegranate</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the hair salon</td>
+<td>morning</td>
+<td>pomegranate</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the courthouse</td>
+<td>night</td>
+<td>water chestnut</td>
+<td>male</td>
+</tr>
+<tr>
+<td>home</td>
+<td>night</td>
+<td>pineapple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>home</td>
+<td>morning</td>
+<td>apple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>home</td>
+<td>night</td>
+<td>peach</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the hair salon</td>
+<td>night</td>
+<td>pineapple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the hair salon</td>
+<td>night</td>
+<td>water chestnut</td>
+<td>male</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="4" class="agentLabel">Agent 1</td></tr>
+<th>loc (0.3)</th>
+<th>time (0.3)</th>
+<th>fruits (3.0)</th>
+<th>gender (1.0)</th>
+</tr>
+<tr>
+<td>the post office</td>
+<td>night</td>
+<td>apple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the hair salon</td>
+<td>night</td>
+<td>pineapple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>school</td>
+<td>night</td>
+<td>water chestnut</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the post office</td>
+<td>night</td>
+<td>plum</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the post office</td>
+<td>morning</td>
+<td>sugarcane</td>
+<td>male</td>
+</tr>
+<tr>
+<td>school</td>
+<td>afternoon</td>
+<td>pineapple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the post office</td>
+<td>night</td>
+<td>peach</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the hair salon</td>
+<td>night</td>
+<td>apple</td>
+<td>male</td>
+</tr>
+<tr>
+<td>the post office</td>
+<td>night</td>
+<td>guava</td>
+<td>male</td>
+</tr>
+<tr>
+<td>school</td>
+<td>afternoon</td>
+<td>mango</td>
+<td>male</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent0">                <td class="time">2020-07-07 11:37:54</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">suprabhat</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-07 11:38:00</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">Suprabhat</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-07 11:38:14</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have 2 dost hai jinhe singhara khana pasand hai, 1 friend who peach khana pasand hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-07 11:38:49</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">I do not have any friends jinhe Singhara khana pasand hai </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-07 11:39:02</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have 2 friends who pomegranate khana pasand hai, 2 friends working mein adaalat</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-07 11:39:32</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">Do you have any male friends who work at the post office at night and  like eating peach</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-07 11:39:34</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">SELECT (home || night || peach || male)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-07 11:40:25</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">Do you have any male friends who work at school at night and like eating singhara?</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-07 11:40:44</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas 2 male friends who work ke samay night and who like eating singhara, koi dost nahi hai jo school mein kaam karta hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-07 11:40:52</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">kya you have any dost hai jise likes eating imli? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-07 11:41:14</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">Nahi</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-07 11:41:16</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">SELECT (the courthouse || night || water chestnut || male)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-07 11:41:33</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">Do you have any friends working at the post office?</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-07 11:41:41</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas no friend working mein daak ghar</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-07 11:41:56</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">do tumhare paas koi dost hai jise likes eating sweet lime or friends working mein the hair salon? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-07 11:42:13</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">Mere 2 dost hair salon me kaam karte hai </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-07 11:42:21</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">kya you have any friends who like eating ananas? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-07 11:42:48</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">Do you have any make friends working at the hair salon at night and who like eating ananas?</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-07 11:43:03</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas 1 friend working at the hair salon aur who works during night and who likes eating pineapple</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-07 11:43:10</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">SELECT (the hair salon || night || pineapple || male)</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-07 11:43:12</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">SELECT (the hair salon || night || pineapple || male)</td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>f</td></tr>
+<tr><td>n01_i_understand</td><td>5</td></tr>
+<tr><td>n02_cooperative</td><td>5</td></tr>
+<tr><td>n03_human</td><td>4</td></tr>
+<tr><td>n04_understand_me</td><td>5</td></tr>
+<tr><td>n05_chat</td><td>4</td></tr>
+<tr><td>n06_texts</td><td>4</td></tr>
+<tr><td>n07_tech</td><td>5</td></tr>
+<tr><td>n08_learn_spa</td><td>2</td></tr>
+<tr><td>n09_learn_eng</td><td>2</td></tr>
+<tr><td>n10_age</td><td>1</td></tr>
+<tr><td>n11_ability_spa</td><td>4</td></tr>
+<tr><td>n12_ability_eng</td><td>5</td></tr>
+<tr><td>n13_country</td><td>4</td></tr>
+<tr><td>n14_online_spa</td><td>2</td></tr>
+<tr><td>n15_online_eng</td><td>4</td></tr>
+<tr><td>n16_online_mix</td><td>4</td></tr>
+<tr><td>n17_comments</td><td></td></tr>
+<tr><td>n18_non_native</td><td>2</td></tr>
+<tr><td>n19_partner_gender</td><td>m</td></tr>
+<tr><td>n20_languages</td><td>1,2,3</td></tr>
+<tr><td>n21_education</td><td>3</td></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<h3>Mturk ID: MTURK_TASK_I4c354b4c41184f268dcd780b9caf55b9</h3>
+<h3>Chat UUID: C_6cd61127d1c046a184c9ba6f670bc370</h3>
+<h3>Chat Number: 1</h3>
+<div class="scenario">
+<div class="divTitle">Scenario S_psVyUUXZIRJtCJOd with style random</div>
+<div class="kb0"><table><tr><td colspan="4" class="agentLabel">Agent 0</td></tr>
+<th>loc (3.0)</th>
+<th>hobbies (0.3)</th>
+<th>time (1.0)</th>
+<th>fruits (0.3)</th>
+</tr>
+<tr>
+<td>home</td>
+<td>fishing</td>
+<td>afternoon</td>
+<td>orange</td>
+</tr>
+<tr>
+<td>the aquarium</td>
+<td>dancing</td>
+<td>afternoon</td>
+<td>orange</td>
+</tr>
+<tr>
+<td>the post office</td>
+<td>fishing</td>
+<td>morning</td>
+<td>grapes</td>
+</tr>
+<tr>
+<td>the factory</td>
+<td>reading</td>
+<td>afternoon</td>
+<td>grapes</td>
+</tr>
+<tr>
+<td>the jewelry store</td>
+<td>sports</td>
+<td>afternoon</td>
+<td>orange</td>
+</tr>
+<tr>
+<td>home</td>
+<td>dancing</td>
+<td>afternoon</td>
+<td>water chestnut</td>
+</tr>
+<tr>
+<td>school</td>
+<td>reading</td>
+<td>night</td>
+<td>plum</td>
+</tr>
+<tr>
+<td>the train station</td>
+<td>photography</td>
+<td>night</td>
+<td>grapes</td>
+</tr>
+<tr>
+<td>the courthouse</td>
+<td>dancing</td>
+<td>afternoon</td>
+<td>pear</td>
+</tr>
+<tr>
+<td>home</td>
+<td>swimming</td>
+<td>night</td>
+<td>papaya</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="4" class="agentLabel">Agent 1</td></tr>
+<th>loc (3.0)</th>
+<th>hobbies (0.3)</th>
+<th>time (1.0)</th>
+<th>fruits (0.3)</th>
+</tr>
+<tr>
+<td>the bank</td>
+<td>running</td>
+<td>night</td>
+<td>papaya</td>
+</tr>
+<tr>
+<td>the post office</td>
+<td>sewing</td>
+<td>night</td>
+<td>papaya</td>
+</tr>
+<tr>
+<td>the jewelry store</td>
+<td>sports</td>
+<td>night</td>
+<td>orange</td>
+</tr>
+<tr>
+<td>the aquarium</td>
+<td>cooking</td>
+<td>night</td>
+<td>sugarcane</td>
+</tr>
+<tr>
+<td>the zoo</td>
+<td>sewing</td>
+<td>night</td>
+<td>papaya</td>
+</tr>
+<tr>
+<td>the office</td>
+<td>cooking</td>
+<td>night</td>
+<td>apple</td>
+</tr>
+<tr>
+<td>the office</td>
+<td>running</td>
+<td>night</td>
+<td>orange</td>
+</tr>
+<tr>
+<td>home</td>
+<td>swimming</td>
+<td>night</td>
+<td>papaya</td>
+</tr>
+<tr>
+<td>the office</td>
+<td>running</td>
+<td>night</td>
+<td>papaya</td>
+</tr>
+<tr>
+<td>the post office</td>
+<td>running</td>
+<td>night</td>
+<td>apple</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent0">                <td class="time">2020-07-03 00:05:50</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">hey</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 00:05:58</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas kuch dost hai jinhe like eating santra</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 00:06:35</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">Sacchi? Mere bhi ek dost ko santra khana pasand hain</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 00:06:45</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have some friends who work ke samay dopahar aur jinhe like dancing</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 00:08:14</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">Mere kisi dost ko dancing pasand nahi </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 00:08:16</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">SELECT (home || fishing || afternoon || orange)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 00:09:21</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">SELECT (the jewelry store || sports || night || orange)</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 00:09:34</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">SELECT (the jewelry store || sports || afternoon || orange)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 00:10:56</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">SELECT (the office || running || night || orange)</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 00:11:06</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">do tumhare paas any dost hai jinhe machali pakadna pasand hai? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 00:11:45</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">I have no friend jise machali pakadna pasand hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 00:12:00</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas ek dost hai jo at the factory kaam karta hai, one dost hai jo machalighar mein kaam karta hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 00:12:15</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">SELECT (the aquarium || cooking || night || sugarcane)</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 00:12:23</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">kya tumhare paas koi dost hai jise likes photography? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 00:12:53</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">Nahi mere kisi dost ko photography nahi pasand</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 00:13:04</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">kya you have koi dost hai jo at gahane ki dukaan kaam karta hai? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 00:13:46</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">Hain ek dost gahane ki dukaan kaam karta hai</td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>m</td></tr>
+<tr><td>n01_i_understand</td><td>5</td></tr>
+<tr><td>n02_cooperative</td><td>4</td></tr>
+<tr><td>n03_human</td><td>2</td></tr>
+<tr><td>n04_understand_me</td><td>3</td></tr>
+<tr><td>n05_chat</td><td>3</td></tr>
+<tr><td>n06_texts</td><td>1</td></tr>
+<tr><td>n07_tech</td><td>5</td></tr>
+<tr><td>n08_learn_spa</td><td>2</td></tr>
+<tr><td>n09_learn_eng</td><td>2</td></tr>
+<tr><td>n10_age</td><td>1</td></tr>
+<tr><td>n11_ability_spa</td><td>5</td></tr>
+<tr><td>n12_ability_eng</td><td>5</td></tr>
+<tr><td>n13_country</td><td>4</td></tr>
+<tr><td>n14_online_spa</td><td>0</td></tr>
+<tr><td>n15_online_eng</td><td>7</td></tr>
+<tr><td>n16_online_mix</td><td>3</td></tr>
+<tr><td>n17_comments</td><td>Partner generated replies are not quite how someone who writes or speaks in Hinglish would usually come up with, which may make understanding what the partner is saying a little difficult. </td></tr>
+<tr><td>n18_non_native</td><td>4</td></tr>
+<tr><td>n19_partner_gender</td><td>f</td></tr>
+<tr><td>n20_languages</td><td>1,2,3</td></tr>
+<tr><td>n21_education</td><td>4</td></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<h3>Mturk ID: MTURK_TASK_I95adb3f0a34a4bd5a09103729991f06c</h3>
+<h3>Chat UUID: C_e756d655694542469981ed1d6a4b3280</h3>
+<h3>Chat Number: 1</h3>
+<div class="scenario">
+<div class="divTitle">Scenario S_ULcjqNKbgzUaKUt7 with style random</div>
+<div class="kb0"><table><tr><td colspan="4" class="agentLabel">Agent 0</td></tr>
+<th>hobbies (1.0)</th>
+<th>time (3.0)</th>
+<th>fruits (1.0)</th>
+<th>gender (0.3)</th>
+</tr>
+<tr>
+<td>photography</td>
+<td>morning</td>
+<td>sugarcane</td>
+<td>male</td>
+</tr>
+<tr>
+<td>sleeping</td>
+<td>morning</td>
+<td>orange</td>
+<td>male</td>
+</tr>
+<tr>
+<td>sewing</td>
+<td>morning</td>
+<td>plum</td>
+<td>male</td>
+</tr>
+<tr>
+<td>drawing</td>
+<td>afternoon</td>
+<td>pear</td>
+<td>male</td>
+</tr>
+<tr>
+<td>singing</td>
+<td>afternoon</td>
+<td>orange</td>
+<td>male</td>
+</tr>
+<tr>
+<td>traveling</td>
+<td>morning</td>
+<td>sweet lime</td>
+<td>male</td>
+</tr>
+<tr>
+<td>drawing</td>
+<td>night</td>
+<td>water chestnut</td>
+<td>male</td>
+</tr>
+<tr>
+<td>sleeping</td>
+<td>afternoon</td>
+<td>water chestnut</td>
+<td>male</td>
+</tr>
+<tr>
+<td>fishing</td>
+<td>night</td>
+<td>sugarcane</td>
+<td>male</td>
+</tr>
+<tr>
+<td>swimming</td>
+<td>afternoon</td>
+<td>sweet lime</td>
+<td>male</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="4" class="agentLabel">Agent 1</td></tr>
+<th>hobbies (1.0)</th>
+<th>time (3.0)</th>
+<th>fruits (1.0)</th>
+<th>gender (0.3)</th>
+</tr>
+<tr>
+<td>acting</td>
+<td>morning</td>
+<td>sweet lime</td>
+<td>male</td>
+</tr>
+<tr>
+<td>photography</td>
+<td>morning</td>
+<td>sugarcane</td>
+<td>male</td>
+</tr>
+<tr>
+<td>cooking</td>
+<td>morning</td>
+<td>gooseberry</td>
+<td>male</td>
+</tr>
+<tr>
+<td>dancing</td>
+<td>afternoon</td>
+<td>orange</td>
+<td>male</td>
+</tr>
+<tr>
+<td>acting</td>
+<td>morning</td>
+<td>lime</td>
+<td>male</td>
+</tr>
+<tr>
+<td>acting</td>
+<td>morning</td>
+<td>pomegranate</td>
+<td>male</td>
+</tr>
+<tr>
+<td>running</td>
+<td>morning</td>
+<td>orange</td>
+<td>male</td>
+</tr>
+<tr>
+<td>photography</td>
+<td>night</td>
+<td>plum</td>
+<td>male</td>
+</tr>
+<tr>
+<td>reading</td>
+<td>afternoon</td>
+<td>plum</td>
+<td>male</td>
+</tr>
+<tr>
+<td>traveling</td>
+<td>morning</td>
+<td>tamarind</td>
+<td>male</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent1">                <td class="time">2020-07-03 23:14:30</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">suprabhat</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:14:37</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">mere paas 1 friend who daudana pasand hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:14:38</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">hi</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:14:46</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">mere paas 1 friend who yatra karna pasand hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:14:49</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">I don't </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:14:51</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">tairaki</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:15:03</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">sona</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:15:07</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">machali pakadna</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:15:10</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">chitrakala</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:15:11</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">gaana</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:15:13</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">ye sab hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:15:20</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">tere paas hai isme se kuch?</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:15:21</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i have</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:15:33</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">konsa?</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:15:34</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">mere paas</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:15:41</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i have many friends who work ke samay subah</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:15:41</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">kya hai tere pass</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:15:43</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">mere paas</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:15:54</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">usme se koi ganna khata hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:16:08</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i have 2 dost hai jo during afternoon kaam karte hai, many friends who work during morning</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:16:21</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">koi gana gaata hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:16:23</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i have</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:16:32</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i have kuch dost hai jinhe abhinay karna pasand hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:17:16</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">jo gaana gata hai woh santra khata hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:17:17</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">?</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:17:19</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">mere paas</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:17:21</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">SELECT (photography || morning || sugarcane || male)</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:17:41</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">bhai jo gaana gata hai woh santra khata hai?</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:17:56</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i have koi dost nahi hai jise singing pasand hai, 2 dost hai jinhe orange khana pasand hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:18:06</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">do you have koi purush dost hai jise traveling pasand hai? </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:18:06</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">SELECT (singing || afternoon || orange || male)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:18:14</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i have 1 dost hai jise likes naachna</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:18:38</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">anyone likes swimming?</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:18:45</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">mere paas no friend who likes swimming</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:18:51</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">is there anyone who likes to sleep</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:19:05</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">mere paas 2 dost hai jinhe like eating santra, 1 friend who khaana banana pasand hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:19:19</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">jo santra khata hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:19:28</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">wo kya pasand karta hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:19:31</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">SELECT (dancing || afternoon || orange || male)</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:19:44</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">kuch bhi</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:19:45</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">acha</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:19:53</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">koi machali pakadta hai?</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:19:56</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">i have</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:20:11</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">kya tumhare paas any friend who pomegranate khana pasand hai ya friend who tamarind khana pasand hai? </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:20:19</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">nahi</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:20:21</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">sweet lime</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:20:24</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">sweet lime wale hain 2</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:20:30</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">mere paas all male friends</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:20:45</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">mere pass bhi</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:20:52</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">koi singhara khata hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:21:01</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">mere paas no friend who water chestnut khana pasand hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:21:08</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">ber</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:21:10</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">SELECT (running || morning || orange || male)</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:21:19</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">yatra karna</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:21:32</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">kya you have koi dost hai jise padhana and who works during afternoon pasand hai? </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:21:43</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">nahi</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:21:45</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">tere pass</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:22:01</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">kya tumhare paas any dost hai jise khana banaana pasand hai ya dost hai jise lime khana pasand hai? </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:22:14</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">no tairaki</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-03 23:22:15</td>                <td class="agent">Agent 0 (human)</td>                <td class="message">?</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:22:18</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">mere paas</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-03 23:22:21</td>                <td class="agent">Agent 1 (rule-based)</td>                <td class="message">SELECT (acting || morning || sweet lime || male)</td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>o</td></tr>
+<tr><td>n01_i_understand</td><td>5</td></tr>
+<tr><td>n02_cooperative</td><td>1</td></tr>
+<tr><td>n03_human</td><td>1</td></tr>
+<tr><td>n04_understand_me</td><td>1</td></tr>
+<tr><td>n05_chat</td><td>5</td></tr>
+<tr><td>n06_texts</td><td>2</td></tr>
+<tr><td>n07_tech</td><td>2</td></tr>
+<tr><td>n08_learn_spa</td><td>1</td></tr>
+<tr><td>n09_learn_eng</td><td>1</td></tr>
+<tr><td>n10_age</td><td>2</td></tr>
+<tr><td>n11_ability_spa</td><td>5</td></tr>
+<tr><td>n12_ability_eng</td><td>5</td></tr>
+<tr><td>n13_country</td><td>1</td></tr>
+<tr><td>n14_online_spa</td><td>0</td></tr>
+<tr><td>n15_online_eng</td><td>9</td></tr>
+<tr><td>n16_online_mix</td><td>1</td></tr>
+<tr><td>n17_comments</td><td></td></tr>
+<tr><td>n18_non_native</td><td>3</td></tr>
+<tr><td>n19_partner_gender</td><td>m</td></tr>
+<tr><td>n20_languages</td><td>1,2</td></tr>
+<tr><td>n21_education</td><td>4</td></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<h3>Mturk ID: MTURK_TASK_I504dc479908e44df8bdb17977b8ae03e</h3>
+<h3>Chat UUID: C_275a5ace1c084bc78148febaaf46a7e5</h3>
+<h3>Chat Number: 1</h3>
+<div class="scenario">
+<div class="divTitle">Scenario S_gCf5pbHtvPv0Ccg2 with style random</div>
+<div class="kb0"><table><tr><td colspan="4" class="agentLabel">Agent 0</td></tr>
+<th>loc (1.0)</th>
+<th>hobbies (0.3)</th>
+<th>time (3.0)</th>
+<th>fruits (3.0)</th>
+</tr>
+<tr>
+<td>the factory</td>
+<td>cooking</td>
+<td>night</td>
+<td>banana</td>
+</tr>
+<tr>
+<td>the zoo</td>
+<td>swimming</td>
+<td>night</td>
+<td>sugarcane</td>
+</tr>
+<tr>
+<td>home</td>
+<td>swimming</td>
+<td>night</td>
+<td>muskmelon</td>
+</tr>
+<tr>
+<td>the office</td>
+<td>reading</td>
+<td>afternoon</td>
+<td>mango</td>
+</tr>
+<tr>
+<td>the post office</td>
+<td>cooking</td>
+<td>night</td>
+<td>water chestnut</td>
+</tr>
+<tr>
+<td>the bank</td>
+<td>traveling</td>
+<td>morning</td>
+<td>grapes</td>
+</tr>
+<tr>
+<td>the jewelry store</td>
+<td>reading</td>
+<td>night</td>
+<td>lychee</td>
+</tr>
+<tr>
+<td>the aquarium</td>
+<td>photography</td>
+<td>night</td>
+<td>apple</td>
+</tr>
+<tr>
+<td>the factory</td>
+<td>photography</td>
+<td>afternoon</td>
+<td>muskmelon</td>
+</tr>
+<tr>
+<td>the hair salon</td>
+<td>traveling</td>
+<td>night</td>
+<td>mango</td>
+</tr>
+</table></div>
+<div class="kb1"><table><tr><td colspan="4" class="agentLabel">Agent 1</td></tr>
+<th>loc (1.0)</th>
+<th>hobbies (0.3)</th>
+<th>time (3.0)</th>
+<th>fruits (3.0)</th>
+</tr>
+<tr>
+<td>the aquarium</td>
+<td>photography</td>
+<td>afternoon</td>
+<td>papaya</td>
+</tr>
+<tr>
+<td>home</td>
+<td>cooking</td>
+<td>night</td>
+<td>custard apple</td>
+</tr>
+<tr>
+<td>the aquarium</td>
+<td>writing</td>
+<td>night</td>
+<td>peach</td>
+</tr>
+<tr>
+<td>home</td>
+<td>cooking</td>
+<td>afternoon</td>
+<td>water chestnut</td>
+</tr>
+<tr>
+<td>the airport</td>
+<td>cooking</td>
+<td>afternoon</td>
+<td>apple</td>
+</tr>
+<tr>
+<td>home</td>
+<td>photography</td>
+<td>afternoon</td>
+<td>muskmelon</td>
+</tr>
+<tr>
+<td>home</td>
+<td>writing</td>
+<td>morning</td>
+<td>muskmelon</td>
+</tr>
+<tr>
+<td>the zoo</td>
+<td>photography</td>
+<td>night</td>
+<td>muskmelon</td>
+</tr>
+<tr>
+<td>the train station</td>
+<td>swimming</td>
+<td>morning</td>
+<td>watermelon</td>
+</tr>
+<tr>
+<td>home</td>
+<td>swimming</td>
+<td>night</td>
+<td>muskmelon</td>
+</tr>
+</table></div>
+</div>
+<div class="chatLog">
+<div class="divTitle"> Chat Log </div>
+<table class="chat">
+<tr class="agent0">                <td class="time">2020-07-06 18:16:01</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">hey</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-06 18:16:06</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">hello</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:16:18</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have 1 friend who likes eating apple, 2 dost hai jo at factory kaam karte hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-06 18:17:06</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">i also have a friend who likes eating apple, but they work at the airport. </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:17:14</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">do tumhare paas koi friend working mein the zoo? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-06 18:17:29</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">what?</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:17:31</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:17:44</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have 2 friends who work during dopahar, 1 dost hai jo daak ghar mein kaam karta hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-06 18:18:28</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">mere 4 dost work in duphair and none who work in daak ghar</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:18:45</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have 1 dost hai jo at nai ki dookaan kaam karta hai, 1 dost hai jo gahane ki dukaan mein kaam karta hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-06 18:19:12</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">no friend like that sorry</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:19:20</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas 2 dost hai jinhe aam khana pasand hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-06 18:19:36</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">nahi. aisa bhi koi dost nahi mere pass</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:19:47</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">do you have any friend working at bank or friend working mein the aquarium? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-06 18:20:05</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">i have a friend working at the aquarium </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:20:13</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">do you have any friends who photography pasand hai? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-06 18:20:24</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">SELECT (the aquarium || photography || afternoon || papaya)</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:20:36</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">kya you have any friend working at ghara ya friend who kela khana pasand hai? </td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-06 18:21:08</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">what is ghara? no friend likes kela</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:21:15</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas 1 dost hai jise banana khana pasand hai</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:21:18</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">SELECT (the aquarium || photography || night || apple)</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-06 18:21:46</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">You selected wrong. I told you i have no friends who like banana. </td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:22:00</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas 1 dost hai jise likes eating water chestnut, 1 dost hai jise ganna khana pasand hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-06 18:22:40</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">water chestnut pasand karne waala mera bhi ek dost hai. kya woh duphair me kaam karta hai?</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:22:48</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas 1 dost hai jise likes eating singhara</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-06 18:22:55</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">SELECT (home || cooking || afternoon || water chestnut)</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:23:06</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">i have 2 friends who padhana pasand hai, 1 dost hai jise likes eating angoor</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-06 18:23:33</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">aisa koi dost nahi mera</td>               </tr>
+<tr class="agent0">                <td class="time">2020-07-06 18:23:41</td>                <td class="agent">Agent 0 (rule-based)</td>                <td class="message">mere paas 1 dost hai jo during subah kaam karta hai</td>               </tr>
+<tr class="agent1">                <td class="time">2020-07-06 18:23:58</td>                <td class="agent">Agent 1 (human)</td>                <td class="message">mere pass aise do dost hai</td>               </tr>
+</table>
+</div>
+<div class="survey">
+<div class="divTitle">Survey</div>
+<div class="response">
+<table class="response0">
+<tr><td colspan="2" class="agentLabel">Response to agent 0 (rule-based)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+<tr><td>n00_gender</td><td>m</td></tr>
+<tr><td>n01_i_understand</td><td>4</td></tr>
+<tr><td>n02_cooperative</td><td>3</td></tr>
+<tr><td>n03_human</td><td>2</td></tr>
+<tr><td>n04_understand_me</td><td>2</td></tr>
+<tr><td>n05_chat</td><td>3</td></tr>
+<tr><td>n06_texts</td><td>2</td></tr>
+<tr><td>n07_tech</td><td>4</td></tr>
+<tr><td>n08_learn_spa</td><td>1</td></tr>
+<tr><td>n09_learn_eng</td><td>2</td></tr>
+<tr><td>n10_age</td><td>1</td></tr>
+<tr><td>n11_ability_spa</td><td>5</td></tr>
+<tr><td>n12_ability_eng</td><td>5</td></tr>
+<tr><td>n13_country</td><td>4</td></tr>
+<tr><td>n14_online_spa</td><td>7</td></tr>
+<tr><td>n15_online_eng</td><td>3</td></tr>
+<tr><td>n16_online_mix</td><td>10</td></tr>
+<tr><td>n17_comments</td><td>Nice. The system didn't remember what we had discussed. It just seemed to give information without remembering or removing one's we had discussed. </td></tr>
+<tr><td>n18_non_native</td><td>2</td></tr>
+<tr><td>n19_partner_gender</td><td>o</td></tr>
+<tr><td>n20_languages</td><td>1,2,14</td></tr>
+<tr><td>n21_education</td><td>3</td></tr>
+</table>
+</div>
+<div class="response">
+<table class="response1">
+<tr><td colspan="2" class="agentLabel">Response to agent 1 (human)</td></tr>
+<tr><th>Question</th><th>Response</th></tr>
+</table>
+</div>
+</div>
+</div>
+<hr>
+</body></html>
