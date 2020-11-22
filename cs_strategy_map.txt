@@ -1,0 +1,17 @@
+strategy ("style") mappings:
+
+en_lex = Insertional Hindi > English
+hi_lex = Insertional English > Hindi
+hi2en = Alternational Hindi > English
+en2hi = Alternational English > Hini
+soc_en_lex = Insertional Hindi > English + Informal
+soc_hi_lex = Insertional English > Hindi + Informal
+soc_hi2en = Alternational Hindi > English + Informal
+soc_en2hi = Alternational English > Hindi + Informal
+hi_mono = Monolingual Hindi
+en_mono = Monolingual English
+random = Random
+
+mono2 = hi_mono and en_mono
+social4 = soc_en_lex, soc_hi_lex, soc_hi2en and soc_en2hi
+nonsocial4 = en_lex, hi_lex, hi2en and en2hi
